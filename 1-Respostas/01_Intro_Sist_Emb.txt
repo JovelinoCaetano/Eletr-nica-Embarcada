@@ -1,0 +1,19 @@
+1- O que são sistemas embarcados?
+São sistemas programados para fazer algo específico, onde contem um hardware e um software dedicado.
+
+
+2- O que são sistemas microprocesssados?
+São sistemas dedicados ao microprocessador correspondente onde armazena, processa e controla os dados do sistema. 
+
+3- Apresente aplicações de sistemas embarcados: (a) para a indústria automotiva; (b) para eletrodomésticos; (c) para automação industrial.
+a) Sensor de presença no banco do motorista, injeção eletrônica e sistema multimídea;
+b) Ar-condicionado com controle de umidada, smart TV e alarme de segurança;
+c) Controle da velocidade de produção, segurança da fabricação do produto e sistema de ar da fábrica. 
+ 
+4- Cite arquiteturas possíveis e as diferenças entre elas.
+CISC (Complex Instruction Set Computer): completa uma tarefa com o menor numero possivel de linhas em Assembly.
+RISC (Reduced Instruction Set Computer): utiliza instrucoes mais simples e divide uma tarefa usando varias instrucoes. 
+ISA (Instruction Set Architecture): interface entre hardware e software que especificam funcionalidades de um processador.
+
+5- Por que usamos o MSP430 na disciplina, ao invés de outro microcontrolador?
+Pelo baixo valor de aquisição, por utilizar linguagem C e Assembly, linguagens acessiveis, desempenho considerável e sua ampla variedade de aplicabilidade.

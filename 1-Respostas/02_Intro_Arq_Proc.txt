@@ -1,0 +1,45 @@
+1-Quais as diferenças entre os barramentos de dados e de endereços?
+O barramento de dados é o local onde são ocorrem as trocas de dados do processador.
+o barramento de endereços é o local onde ficam os endereços onde contem os dados que serão processados.
+
+2-Quais são as diferenças entre as memórias RAM e ROM?
+Memória RAM é uma memória volátil, na qual quando é desernegizada os dados presentes nela são apagados. É mais rapida que a memória ROM utilizando acesso aleatório, onde pega dados somente em posiçoes necessarias sem carregar dados desnecessários.
+Memória ROM é uma memória não-volátil, onde mesmo sem energia os dados ficam contidos. É uma memoria lenta, onde os dados são lidos de forma sequencial, por exemplo, o ultimo dado somente é lido quando ele ler todos os anteriores.
+
+3-Considere o código abaixo:
+
+#include <stdio.h>
+int main(void)
+{
+	int i;
+	printf("Insira um número inteiro: ");
+	scanf("%d", &i);
+	if(i%2)
+		printf("%d eh impar.\n");
+	else
+		printf("%d eh par.\n");
+	return 0;
+}
+Para este código, responda: (a) A variável i é armazenada na memória RAM ou ROM? Por quê? (b) O programa compilado a partir deste código é armazenado na memória RAM ou ROM? Por quê?
+a) Será armazenada na memória RAM, porque o dado da variavel i só é necessária quando rodar o programa. Quando desligado o valor é excluído. Outro motivo por ser a RAM é que como a RAM é mais rápida, a variável tem que ser gerada de forma mais rapida no programa.
+
+b) Será armazenado na memória ROM, porque o programa para ser compilado precisa se manter mesmo quando é desligado, para quando ligado, nao ter que fazer todo o código denovo e assim depois roda-lo. 
+
+4-Quais são as diferenças, vantagens e desvantagens das arquiteturas Harvard e Von Neumann?
+Harvard (PICs, Intel 805I, ARM9): Permite leitura simultânea de dados e do programa além de permitir barrametos de dados e programas separadamente otimizados com dois componente. Guarda dados constantes na memória de programa o que requer instrucoes especificas.
+
+Von Neumann (MSP430, Freescale, HCS08, ARM7): Mais lenta, entretanto usam apenas um único componente para vários tipos de memória.
+
+5-Considere a variável inteira i, armazenando o valor 0x8051ABCD. Se i é armazenada na memória a partir do endereço 0x0200, como ficam este byte e os seguintes, considerando que a memória é: (a) Little-endian; (b) Big-endian.
+a) Little-endian:
+	0x200: 0xCD
+	0x202: 0xAB
+	0x204: 0x51
+	0x206: 0x80
+
+b) Big-endian:
+	0x200: 0x80
+	0x202: 0x51
+	0x204: 0xAB
+	0x206: 0xCD
+6-Sabendo que o processador do MSP430 tem registradores de 16 bits, como ele soma duas variáveis de 32 bits?
