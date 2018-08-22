@@ -1,0 +1,44 @@
+#Hasttag:  #Passar_em_sinais_e_outras
+
+Entregas: Sinais e sistemas: 3 avaliações e 3 relatórios de simulações.(Datas a definir)
+	  Circuitos 2: 3 provas.
+		       08/10/2018: Prova 1
+		       21/11/2018: Prova 2
+		       05/12/2018: Prova 3
+	  Eletrônica embarcada: 4 Planos de controle, 2 teste e um projeto final:
+				05/09/2018: entrega do primeiro ponto de controle
+				21/09/2018: primeiro teste
+				05/10/2018: entrega do segundo ponto de controle
+				19/10/2018: entrega do terceiro ponto de controle
+				31/10/2018: segundo teste
+				16/11/2018: entrega do quarto ponto de controle
+				30/11/2018: entrega do projeto final		
+
+Gerente: Eu.
+
+Custo: Almoço: 10 reais/dia.
+       Matériais para todas as matérias: 100 reais.
+       Transporte: 10 reais/dia.
+
+Por que?
+	Porque se eu não concluir essas matérias, no proximo semestre estarei impossibilitado de fazer nenhuma matéria.
+	As matérias é muito importante para o aprendizado profissional.
+	Por que sem faze-las, não formarei.
+
+Por que não?
+	Sem motivos.
+
+Objetivos:
+	Aprender todo o conteúdo de sinais e sistemas, pois é pré-requisito de muitas outras matérias.
+	Conquistar todos os creditos do semestre.
+	Aprender sobre sistemas embarcados.
+	Entender como funciona alguns componentes eletrônicos.
+	Passar em todas matérias com no mínimo a menção "MS".
+Ameaças:
+	Planejar de forma errada => Não passar em todas.
+	Focar errado nas prioridades => Não passar em todas.
+	Reprovar alguma matéria => Não ter a aprovação mínima de "MS" em todas.
+Requisitos:
+	Ter horários definidos.
+	Adquirir matériais de estudo.
+	Aperfeiçoar a forma de falar, forma objetiva e coerente, para um diálogo melhor em projetos com outras pessoas.
